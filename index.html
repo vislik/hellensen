@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ольга Назарова | Стоматолог в Москве</title>
+    <meta
+      name="description"
+      content="Персональный сайт стоматолога Ольги Назаровой: услуги, цены, запись на прием и новости."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Sora:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-shell">
+        <a class="logo" href="#top">
+          <span class="logo-mark">ON</span>
+          <span class="logo-text">Olga Nazarova, DDS</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Site navigation">
+          <a href="#bio" data-i18n="navBio">Обо мне</a>
+          <a href="#services" data-i18n="navServices">Услуги и стоимость</a>
+          <a href="#booking" data-i18n="navBooking">Запись на прием</a>
+          <a href="#directions" data-i18n="navDirections">Как добраться</a>
+          <a href="#news" data-i18n="navNews">Новости</a>
+        </nav>
+
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button class="lang-button is-active" data-lang="ru" type="button">RU</button>
+          <button class="lang-button" data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal">
+        <div class="hero-copy">
+          <p class="kicker" data-i18n="heroKicker">Частный стоматолог в Москве</p>
+          <h1 data-i18n="heroTitle">Ольга Назарова</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Выпускница ПИМУ, практикующий врач-стоматолог с аккуратным подходом и фокусом на эстетичный,
+            предсказуемый результат.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#booking" data-i18n="ctaPrimary">Записаться на прием</a>
+            <a class="button button-secondary" href="#services" data-i18n="ctaSecondary">Смотреть услуги</a>
+          </div>
+
+          <ul class="hero-facts">
+            <li>
+              <span>ПИМУ</span>
+              <p data-i18n="factEducation">Сильная академическая база и уверенная клиническая подготовка</p>
+            </li>
+            <li>
+              <span>360°</span>
+              <p data-i18n="factCoverage">Терапия, профгигиена, эстетика и имплантация в одном подходе</p>
+            </li>
+            <li>
+              <span>VIPERS</span>
+              <p data-i18n="factVipers">Выполняю эстетические кейсы по протоколу VIPERS smile</p>
+            </li>
+            <li>
+              <span>1:1</span>
+              <p data-i18n="factSupport">Понятный план лечения и сопровождение после каждого приема</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <article class="photo-card photo-card-main">
+            <img
+              src="./assets/olga-1.jpg"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&amp;fit=crop&amp;w=900&amp;q=80';"
+              alt="Стоматолог в клинике"
+            />
+          </article>
+          <article class="photo-card photo-card-side">
+            <img
+              src="./assets/olga-2.jpg"
+              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&amp;fit=crop&amp;w=700&amp;q=80';"
+              alt="Рабочий процесс в стоматологическом кабинете"
+            />
+          </article>
+          <article class="signature-card">
+            <p data-i18n="signatureTitle">Персональный подход</p>
+            <span data-i18n="signatureText">Диагностика, план лечения и сопровождение в одном ритме.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section bio reveal" id="bio">
+        <div class="section-title">
+          <p class="kicker" data-i18n="bioKicker">Биография</p>
+          <h2 data-i18n="bioTitle">О специалисте</h2>
+        </div>
+        <div class="bio-grid">
+          <article class="bio-card">
+            <h3 data-i18n="bioEducationTitle">Образование и рост</h3>
+            <p data-i18n="bioEducationText">
+              Ольга Назарова окончила ПИМУ по специальности «Стоматология», далее прошла клиническую практику и
+              углубление по терапевтической и эстетической стоматологии.
+            </p>
+            <ul class="clean-list">
+              <li data-i18n="bioEducationPoint1">ПИМУ, стоматологический факультет</li>
+              <li data-i18n="bioEducationPoint2">Курсы по микроскопической эндодонтии</li>
+              <li data-i18n="bioEducationPoint3">Регулярные стажировки по современным протоколам</li>
+            </ul>
+          </article>
+
+          <article class="bio-card">
+            <h3 data-i18n="bioApproachTitle">Подход к лечению</h3>
+            <p data-i18n="bioApproachText">
+              Основной принцип: объяснить пациенту каждый этап и выбрать решение, которое будет функциональным,
+              эстетичным и устойчивым в долгую.
+            </p>
+            <ul class="clean-list">
+              <li data-i18n="bioApproachPoint1">План лечения с понятной стоимостью</li>
+              <li data-i18n="bioApproachPoint2">Фото- и рентген-контроль на ключевых этапах</li>
+              <li data-i18n="bioApproachPoint3">Чек-лист рекомендаций после приема</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery reveal" id="gallery">
+        <div class="section-title">
+          <p class="kicker" data-i18n="galleryKicker">Визуальные кейсы</p>
+          <h2 data-i18n="galleryTitle">До/после и рабочая среда</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1588776814546-ec7e4d337d0f?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              alt="Эстетическая реставрация зубов"
+            />
+            <p data-i18n="galleryCaption1">Эстетическая реставрация фронтальной группы</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              alt="Профессиональная гигиена"
+            />
+            <p data-i18n="galleryCaption2">Профессиональная гигиена и полировка</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              alt="Современное оборудование стоматологии"
+            />
+            <p data-i18n="galleryCaption3">Оборудование и стерильная рабочая зона</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+              alt="Диагностика и планирование лечения"
+            />
+            <p data-i18n="galleryCaption4">Диагностика перед составлением плана лечения</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section services reveal" id="services">
+        <div class="section-title">
+          <p class="kicker" data-i18n="servicesKicker">Услуги</p>
+          <h2 data-i18n="servicesTitle">Услуги и стоимость</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Service categories">
+          <button class="tab-button is-active" type="button" data-filter="all" data-i18n="tabAll">Все</button>
+          <button class="tab-button" type="button" data-filter="therapy" data-i18n="tabTherapy">Терапия</button>
+          <button class="tab-button" type="button" data-filter="hygiene" data-i18n="tabHygiene">Профгигиена</button>
+          <button class="tab-button" type="button" data-filter="implant" data-i18n="tabImplant">Имплантация</button>
+          <button class="tab-button" type="button" data-filter="esthetic" data-i18n="tabEsthetic">Эстетика</button>
+        </div>
+
+        <div class="service-grid" id="service-grid"></div>
+
+        <article class="calc-card">
+          <h3 data-i18n="calcTitle">Оценка стоимости приема</h3>
+          <p data-i18n="calcSubtitle">Калькулятор дает ориентир до очной диагностики.</p>
+
+          <form class="calc-form" id="calc-form">
+            <label>
+              <span data-i18n="calcService">Услуга</span>
+              <select id="calc-service" required></select>
+            </label>
+
+            <label>
+              <span data-i18n="calcVisitType">Формат приема</span>
+              <select id="calc-visit" required>
+                <option value="standard" data-i18n="calcVisitStandard">Плановый</option>
+                <option value="urgent" data-i18n="calcVisitUrgent">Срочный (+20%)</option>
+              </select>
+            </label>
+
+            <label>
+              <span data-i18n="calcDiagnostics">Доп. диагностика</span>
+              <select id="calc-diagnostics" required>
+                <option value="none" data-i18n="calcDiagNone">Без доп. диагностики</option>
+                <option value="xray" data-i18n="calcDiagXray">Прицельный снимок (+1 200 ₽)</option>
+                <option value="ct" data-i18n="calcDiagCt">КТ-сегмент (+3 900 ₽)</option>
+              </select>
+            </label>
+          </form>
+
+          <div class="calc-result">
+            <p data-i18n="calcResultTitle">Ориентировочная стоимость:</p>
+            <strong id="calc-total">от 0 ₽</strong>
+          </div>
+        </article>
+      </section>
+
+      <section class="section booking reveal" id="booking">
+        <div class="section-title">
+          <p class="kicker" data-i18n="bookingKicker">Запись</p>
+          <h2 data-i18n="bookingTitle">Запись на прием</h2>
+        </div>
+
+        <div class="booking-grid">
+          <article class="booking-info">
+            <h3 data-i18n="bookingInfoTitle">Как проходит запись</h3>
+            <ol>
+              <li data-i18n="bookingStep1">Оставляете заявку и выбираете удобную дату.</li>
+              <li data-i18n="bookingStep2">Получаете подтверждение в Telegram в течение 30 минут.</li>
+              <li data-i18n="bookingStep3">На приеме получаете персональный план лечения.</li>
+            </ol>
+            <p class="contact-pill">
+              Telegram: <a href="https://t.me/HELLENSENN" target="_blank" rel="noreferrer">@HELLENSENN</a>
+            </p>
+          </article>
+
+          <form class="booking-form" id="booking-form" novalidate>
+            <label>
+              <span data-i18n="fieldName">Имя</span>
+              <input id="patient-name" name="patientName" type="text" placeholder="Анна" required />
+            </label>
+
+            <label>
+              <span data-i18n="fieldPhone">Телефон / Telegram</span>
+              <input id="patient-contact" name="patientContact" type="text" placeholder="+7 / @username" required />
+            </label>
+
+            <label>
+              <span data-i18n="fieldService">Услуга</span>
+              <select id="booking-service" required></select>
+            </label>
+
+            <div class="booking-datetime">
+              <label>
+                <span data-i18n="fieldDate">Дата</span>
+                <input id="booking-date" name="bookingDate" type="date" required />
+              </label>
+              <label>
+                <span data-i18n="fieldTime">Время</span>
+                <select id="booking-time" required></select>
+              </label>
+            </div>
+
+            <label>
+              <span data-i18n="fieldComment">Комментарий</span>
+              <textarea id="booking-comment" rows="3" placeholder="Опишите жалобу или запрос"></textarea>
+            </label>
+
+            <label class="checkbox-row">
+              <input id="booking-consent" type="checkbox" required />
+              <span data-i18n="fieldConsent">Согласен(а) на обработку персональных данных</span>
+            </label>
+
+            <button class="button button-primary" type="submit" data-i18n="bookingSubmit">Отправить заявку</button>
+            <p class="form-message" id="booking-result" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section directions reveal" id="directions">
+        <div class="section-title">
+          <p class="kicker" data-i18n="directionsKicker">Локация</p>
+          <h2 data-i18n="directionsTitle">Как добраться</h2>
+        </div>
+
+        <div class="directions-grid">
+          <article class="location-card">
+            <h3 data-i18n="locationAddressTitle">Адрес приема</h3>
+            <p data-i18n="locationAddressText">Нижний Новгород, улица Белинского, 32</p>
+            <p data-i18n="locationMetro">Метро: Горьковская, 10 минут пешком</p>
+            <p data-i18n="locationHours">График: Пн-Пт, 08:00-17:00</p>
+          </article>
+
+          <article class="map-card">
+            <iframe
+              title="Map"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=43.982%2C56.307%2C44.016%2C56.327&amp;layer=mapnik"
+              loading="lazy"
+            ></iframe>
+          </article>
+        </div>
+      </section>
+
+      <section class="section news reveal" id="news">
+        <div class="section-title">
+          <p class="kicker" data-i18n="newsKicker">Медиа</p>
+          <h2 data-i18n="newsTitle">Новости и акции</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="News categories">
+          <button class="tab-button is-active" type="button" data-news-filter="all" data-i18n="newsTabAll">Все</button>
+          <button class="tab-button" type="button" data-news-filter="news" data-i18n="newsTabNews">Новости</button>
+          <button class="tab-button" type="button" data-news-filter="promo" data-i18n="newsTabPromo">Акции</button>
+        </div>
+
+        <div class="news-grid" id="news-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerText">Персональный pet-проект стоматолога Ольги Назаровой. RU/EN версия.</p>
+    </footer>
+
+    <dialog class="news-modal" id="news-modal">
+      <form method="dialog" class="news-modal-inner">
+        <button class="news-modal-close" value="cancel" type="submit" aria-label="Close">×</button>
+        <p class="news-modal-date" id="modal-date"></p>
+        <h3 id="modal-title"></h3>
+        <p id="modal-text"></p>
+      </form>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
